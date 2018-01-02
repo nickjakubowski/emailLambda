@@ -1,0 +1,22 @@
+{
+  "name": "email_lambda",
+  "version": "0.0.0",
+  "description": "A simple lambda for sending emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickjakubowski/emailLambda.git"
+  },
+  "author": "Nicholas Jakubowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickjakubowski/emailLambda/issues"
+  },
+  "homepage": "https://github.com/nickjakubowski/emailLambda#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4"
+  }
+}
