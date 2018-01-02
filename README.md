@@ -13,3 +13,5 @@ A simple AWS Lambda function that uses the SendGrid API to send an email
 The function can be tested manually by sending a POST request with the payload in the shape below to the address provided by the API Gateway.
 
 payload: `{ "to": "example@example.com", "subject": "Your Subject", "body": "The text of the email" }`
+
+The function will reply with a 200 OK and a json body: `{"message":"email sent!"}`
